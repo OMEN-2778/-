@@ -50,7 +50,7 @@
 
 | 方式 | 做法 |
 |---|---|
-| **Windows** | 在 [Releases](https://github.com/OMEN-2778/-/releases) 页面下载 `星尘山谷.exe`，双击即可运行，无需安装。按 F11 切换全屏。 |
+| **Windows** | 在 [Releases](https://github.com/OMEN-2778/stardust-vale/releases) 页面下载 `星尘山谷.exe`，双击即可运行，无需安装。按 F11 切换全屏。 |
 | **浏览器** | 下载仓库里的 [`starfall-crypt.html`](starfall-crypt.html)，用 Chrome 或 Edge 打开。字体需要联网加载。 |
 
 ## 操作
