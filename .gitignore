@@ -1,0 +1,11 @@
+# dependencies and build output
+desktop/node_modules/
+desktop/app/
+release/
+
+# scratch files
+game/test.html
+game/all.js
+/all.js
+bak/
+.claude/

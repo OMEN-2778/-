@@ -1,0 +1,40 @@
+{
+  "name": "stardust-vale",
+  "productName": "星尘山谷",
+  "version": "1.0.0",
+  "description": "星尘山谷 · 像素魔法肉鸽",
+  "author": "Stardust Vale",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "icon": "node make-icon.js",
+    "assemble": "node build.js",
+    "start": "node build.js && electron .",
+    "dist": "node build.js && python subset-fonts.py && node build.js && electron-builder --win portable",
+    "fonts": "node build.js && python subset-fonts.py"
+  },
+  "build": {
+    "appId": "com.stardustvale.game",
+    "productName": "星尘山谷",
+    "files": [
+      "main.js",
+      "app/**"
+    ],
+    "directories": {
+      "output": "../release",
+      "buildResources": "build"
+    },
+    "win": {
+      "target": "portable",
+      "icon": "build/icon.png"
+    },
+    "portable": {
+      "artifactName": "星尘山谷.exe"
+    },
+    "compression": "normal"
+  },
+  "devDependencies": {
+    "electron": "^44.6.0",
+    "electron-builder": "^26.15.3"
+  }
+}

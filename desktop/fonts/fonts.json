@@ -1,0 +1,22 @@
+[
+  {
+    "family": "Press Start 2P",
+    "weight": "400",
+    "file": "pressstart2p-400.woff2"
+  },
+  {
+    "family": "ZCOOL QingKe HuangYou",
+    "weight": "400",
+    "file": "zcoolqingkehuangyou-400.woff2"
+  },
+  {
+    "family": "Noto Sans SC",
+    "weight": "500",
+    "file": "notosanssc-500.woff2"
+  },
+  {
+    "family": "Noto Sans SC",
+    "weight": "700",
+    "file": "notosanssc-700.woff2"
+  }
+]
